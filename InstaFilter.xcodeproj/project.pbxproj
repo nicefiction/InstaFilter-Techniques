@@ -11,6 +11,7 @@
 		09C2C8AC26BD31820034A283 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2C8AB26BD31820034A283 /* ContentView.swift */; };
 		09C2C8AE26BD31850034A283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C2C8AD26BD31850034A283 /* Assets.xcassets */; };
 		09C2C8B126BD31850034A283 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C2C8B026BD31850034A283 /* Preview Assets.xcassets */; };
+		09C2C8BB26BD36DC0034A283 /* HowPropertyObserversBecomeStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2C8BA26BD36DC0034A283 /* HowPropertyObserversBecomeStructs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		09C2C8AD26BD31850034A283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09C2C8B026BD31850034A283 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09C2C8B226BD31850034A283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C2C8BA26BD36DC0034A283 /* HowPropertyObserversBecomeStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowPropertyObserversBecomeStructs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		09C2C8A826BD31820034A283 /* InstaFilter */ = {
 			isa = PBXGroup;
 			children = (
+				09C2C8B926BD31CF0034A283 /* Day 62 */,
 				09C2C8A926BD31820034A283 /* InstaFilterApp.swift */,
 				09C2C8AB26BD31820034A283 /* ContentView.swift */,
 				09C2C8AD26BD31850034A283 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				09C2C8B026BD31850034A283 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09C2C8B926BD31CF0034A283 /* Day 62 */ = {
+			isa = PBXGroup;
+			children = (
+				09C2C8BA26BD36DC0034A283 /* HowPropertyObserversBecomeStructs.swift */,
+			);
+			path = "Day 62";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09C2C8AC26BD31820034A283 /* ContentView.swift in Sources */,
+				09C2C8BB26BD36DC0034A283 /* HowPropertyObserversBecomeStructs.swift in Sources */,
 				09C2C8AA26BD31820034A283 /* InstaFilterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

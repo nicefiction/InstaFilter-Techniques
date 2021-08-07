@@ -15,6 +15,7 @@
 		09EBFAB226BDC41900AB227B /* CreatingCustomBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EBFAB126BDC41800AB227B /* CreatingCustomBindings.swift */; };
 		09EBFAB526BDCC9400AB227B /* ShowingMultipleOptionsWithActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EBFAB426BDCC9400AB227B /* ShowingMultipleOptionsWithActionSheet.swift */; };
 		09EBFAB926BE7D0F00AB227B /* IntegratingCoreImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EBFAB826BE7D0F00AB227B /* IntegratingCoreImage.swift */; };
+		09EBFABD26BEF61F00AB227B /* UIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EBFABC26BEF61F00AB227B /* UIImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		09EBFAB126BDC41800AB227B /* CreatingCustomBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomBindings.swift; sourceTree = "<group>"; };
 		09EBFAB426BDCC9400AB227B /* ShowingMultipleOptionsWithActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingMultipleOptionsWithActionSheet.swift; sourceTree = "<group>"; };
 		09EBFAB826BE7D0F00AB227B /* IntegratingCoreImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImage.swift; sourceTree = "<group>"; };
+		09EBFABC26BEF61F00AB227B /* UIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +63,10 @@
 		09C2C8A826BD31820034A283 /* InstaFilter */ = {
 			isa = PBXGroup;
 			children = (
+				09C2C8A926BD31820034A283 /* InstaFilterApp.swift */,
 				09C2C8B926BD31CF0034A283 /* Day 62 */,
 				09EBFAB726BDD3DE00AB227B /* Day 63 */,
-				09C2C8A926BD31820034A283 /* InstaFilterApp.swift */,
+				09EBFABC26BEF61F00AB227B /* UIImagePicker.swift */,
 				09C2C8AB26BD31820034A283 /* ContentView.swift */,
 				09C2C8AD26BD31850034A283 /* Assets.xcassets */,
 				09C2C8B226BD31850034A283 /* Info.plist */,
@@ -174,6 +177,7 @@
 				09C2C8BB26BD36DC0034A283 /* HowPropertyObserversBecomeStructs.swift in Sources */,
 				09C2C8AA26BD31820034A283 /* InstaFilterApp.swift in Sources */,
 				09EBFAB926BE7D0F00AB227B /* IntegratingCoreImage.swift in Sources */,
+				09EBFABD26BEF61F00AB227B /* UIImagePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

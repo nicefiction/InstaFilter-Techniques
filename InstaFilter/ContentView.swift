@@ -1,21 +1,48 @@
-//
-//  ContentView.swift
-//  InstaFilter
-//
-//  Created by Olivier Van hamme on 06/08/2021.
-//
+// ContentView.swift
+
+// MARK: - LIBRARIES -
 
 import SwiftUI
 
+
+
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+   
+   // MARK: - PROPERTY WRAPPERS
+   
+   @State private var image: Image?
+   @State private var isShowingImagePickerSheet: Bool = false
+   
+   
+   
+   // MARK: - COMPUTED PROPERTIES
+   
+   var body: some View {
+      
+      VStack {
+         image?
+            .resizable()
+            .scaledToFit()
+         Button("Select Image") {
+            self.isShowingImagePickerSheet.toggle()
+         }
+      }
+      .sheet(isPresented: $isShowingImagePickerSheet) {
+         UIImagePicker()
+      }
+   }
 }
 
+
+
+
+
+// MARK: - PREVIEWS -
+
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+   
+   static var previews: some View {
+      
+      ContentView()
+   }
 }

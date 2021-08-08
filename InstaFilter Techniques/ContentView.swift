@@ -12,6 +12,7 @@ struct ContentView: View {
    
    @State private var image: Image?
    @State private var isShowingImagePickerSheet: Bool = false
+   @State private var inputImage: UIImage?
    
    
    
@@ -27,9 +28,22 @@ struct ContentView: View {
             self.isShowingImagePickerSheet.toggle()
          }
       }
-      .sheet(isPresented: $isShowingImagePickerSheet) {
-         UIImagePicker()
+      .sheet(isPresented: $isShowingImagePickerSheet,
+             onDismiss: loadImage) {
+         ImagePicker(image: self.$inputImage)
       }
+   }
+   
+   
+   
+   // MARK: - METHODS
+   
+   func loadImage() {
+      
+      guard let _inputImage = inputImage
+      else { return }
+      
+      image = Image(uiImage: _inputImage)
    }
 }
 
